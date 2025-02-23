@@ -1,6 +1,6 @@
 # Overview
 
-<ToBeDetermined> est une webapp qui facilite la gestion d'une bibliotéque Universitaire, et elle est destinée en premier lieu au libraires/travailleurs comme premier utilisateurs, et les etudiants/enseignants/autres en second lieu.
+\<ToBeDetermined\> est une webapp qui facilite la gestion d'une bibliotéque Universitaire, et elle est destinée en premier lieu au libraires/travailleurs comme premier utilisateurs, et les etudiants/enseignants/autres en second lieu.
 
 
 Le Projet serra divisé en *deux* composants distincts:
@@ -14,7 +14,7 @@ Mellow est le backend du projet, exposant un REST API et qui permet la connectio
 ![Schema](./DB.svg)
 ### API endpoints:
 TODO
-## Le Frontend : <ToBeDetermined>
+## Le Frontend : \<ToBeDetermined\>
 - Stack: HTML CSS JS
 
 [Wireframe link](https://www.canva.com/design/DAGf5gWIg7E/Hh4Bi0XXFv2vhkFpdgxjjQ/view?mode=prototype)
