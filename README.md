@@ -11,7 +11,7 @@ Le Projet serra divisé en *deux* composants distincts:
 Mellow est le backend du projet, exposant un REST API et qui permet la connection entre la base de données SQLiteV3, et le frontend. Retourant des objets JSON avec les résultats des requêtes.
 
 ### Base de données:
-[Schema](./DB.svg)
+![Schema](./DB.svg)
 ### API endpoints:
 TODO
 ## Le Frontend : <ToBeDetermined>
