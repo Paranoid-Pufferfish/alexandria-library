@@ -20,7 +20,7 @@ NamePending is a University library management platform designed to optimize the
 - AIT MEDDOUR Fouâd-Eddine: Implementation of the API endpoints
 #### Stack
 - [BCHS](https://learnbchs.org): The backbone of the server, BCHS is not a software per-say, but merely a concept/idea. It prioritizes security and sandboxing over speed.
-- [kcgi](https://github.com/kristapsdz/kcgi): "kcgi is an open source CGI and FastCGI library for C/C++ web applications. It's minimal, secure, auditable, and fits within your BCHS software stack"[^1]
+- [kcgi](https://github.com/kristapsdz/kcgi): "kcgi is an open source CGI and FastCGI library for C/C++ web applications. It's minimal, secure, auditable, and fits within your BCHS software stack"[¹](#1)
  
 - [sqlbox](https://github.com/kristapsdz/sqlbox)
 - [SQLiteV3](https://www.sqlite.org/)
@@ -33,4 +33,4 @@ NamePending is a University library management platform designed to optimize the
 
 
 ## Sources & Citations
-[^1] : Kristaps DZONSONS at https://github.com/kristapsdz/kcgi
+[1] : Kristaps DZONSONS at https://github.com/kristapsdz/kcgi <a id='1'></a>
