@@ -21,9 +21,9 @@ NamePending is a University library management platform designed to optimize the
 #### Stack
 - [BCHS](https://learnbchs.org): The backbone of the server, BCHS is not a software per-say, but merely a concept/idea. It prioritizes security and sandboxing over speed.
 - [kcgi](https://github.com/kristapsdz/kcgi): "kcgi is an open source CGI and FastCGI library for C/C++ web applications. It's minimal, secure, auditable, and fits within your BCHS software stack"[¹](#1)
- 
-- [sqlbox](https://github.com/kristapsdz/sqlbox)
-- [SQLiteV3](https://www.sqlite.org/)
+- [sqlbox](https://github.com/kristapsdz/sqlbox): "sqlbox is an open source C/C++ secure database access library at this time limited to sqlite3 databases"[²](#2)
+- [SQLiteV3](https://www.sqlite.org/): "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day"[³](#3)
+- [OpenBSD](http://openbsd.org/): "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography"[⁴](#4)
 ### Frontend: NamePending
 #### Team members
 - SAHI Imene
@@ -33,4 +33,7 @@ NamePending is a University library management platform designed to optimize the
 
 
 ## Sources & Citations
-[1] : Kristaps DZONSONS at https://github.com/kristapsdz/kcgi <a id='1'></a>
+[1] : Kristaps DZONSONS: https://github.com/kristapsdz/kcgi <a id='1'></a>
+[2] : Kristaps DZONSONS: https://github.com/kristapsdz/sqlbox <a id='2'></a>
+[3] : Richard Hipp: https://www.sqlite.org <a id='3'></a>
+[4] : https://openbsd.org <a id='4'></a> 
