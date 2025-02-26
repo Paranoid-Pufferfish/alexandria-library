@@ -39,7 +39,7 @@ TO BE DETERMINED
 
 
 ## Sources & Citations
-[1] : Kristaps DZONSONS: https://github.com/kristapsdz/kcgi <a id='1'></a>
-[2] : Kristaps DZONSONS: https://github.com/kristapsdz/sqlbox <a id='2'></a>
-[3] : Richard Hipp: https://www.sqlite.org <a id='3'></a>
-[4] : https://openbsd.org <a id='4'></a> 
+- [1] : Kristaps DZONSONS: https://github.com/kristapsdz/kcgi <a id='1'></a>
+- [2] : Kristaps DZONSONS: https://github.com/kristapsdz/sqlbox <a id='2'></a>
+- [3] : Richard Hipp: https://www.sqlite.org <a id='3'></a>
+- [4] : https://openbsd.org <a id='4'></a> 
