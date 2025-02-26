@@ -12,6 +12,12 @@ NamePending is a University library management platform designed to optimize the
 - Getting book infos from the ISBN13 using public APIs (OPTIONAL).
 - Possibility of scanning a books codebar to autofill its infos (OPTIONAL).
 
+
+## License
+
+TO BE DETERMINED 
+
+
 ## Project Components
 
 ### Backend: Mellow
