@@ -22,8 +22,8 @@ TO BE DETERMINED
 
 ### Backend: Mellow
 #### Team members
-- MOUHOUS Mathya: Designing the RESTFUL API endpoints
-- AIT MEDDOUR Fouâd-Eddine: Implementation of the API endpoints
+- [MOUHOUS Mathya](https://github.com/MathyazSnoozin): Designing the RESTFUL API endpoints
+- [AIT MEDDOUR Fouâd-Eddine](https://github.com/Paranoid-Pufferfish): Implementation of the API endpoints
 #### Stack
 - [BCHS](https://learnbchs.org): The backbone of the server, BCHS is not a software per-say, but merely a concept/idea. It prioritizes security and sandboxing over speed.
 - [kcgi](https://github.com/kristapsdz/kcgi): "kcgi is an open source CGI and FastCGI library for C/C++ web applications. It's minimal, secure, auditable, and fits within your BCHS software stack"[¹](#1)
@@ -32,8 +32,8 @@ TO BE DETERMINED
 - [OpenBSD](http://openbsd.org/): "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography"[⁴](#4)
 ### Frontend: NamePending
 #### Team members
-- SAHI Imene
-- SOLTANA Melissa
+- [SAHI Imene](https://github.com/ImeneeSh)
+- [SOLTANA Melissa](https://github.com/melissa60)
 #### Stack
 
 
