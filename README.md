@@ -29,6 +29,9 @@ Library Staff are the ones allowed to rent a book to someone, and also mark it a
 All three types will be the same entity, differentiated by a ROLE Foreign Key(More in the Database Section)
 
 #### Database
+TODO
+#### Sequence Diagram
+TODO
 ## License
 
 BSD 3-Clause License
