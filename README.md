@@ -32,7 +32,7 @@ TO BE DETERMINED
 - [OpenBSD](http://openbsd.org/): "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography"[⁴](#4)
 ### Frontend: NamePending
 #### Team members
-- [SAHI Imene](https://github.com/ImeneeSh)
+- [SAHI Nour El Imene](https://github.com/ImeneeSh)
 - [SOLTANA Melissa](https://github.com/melissa60)
 #### Stack
 
