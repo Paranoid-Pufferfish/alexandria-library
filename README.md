@@ -3,6 +3,7 @@
 *The Alexandria Library* is a University library management platform designed to optimize the process of renting and returning books, providing a REST API Microservice & a Webapp Interface for both administrating and managing books and rents, making it possible to integrate in other environnements, and developing native desktop/phone apps.
 
 ## Needs Analysis
+### Overview
 - A student/professor interface for managing rented books, showing delays and warnings, and offering the possibility to extend delays.
 - An admin/staff interface for both assigning books to students/professors, adding books to the inventory, and check logs and events.
 - Possibility of creating a student/professor account without staff intervention.
@@ -11,7 +12,12 @@
 - A simple and advanced search interface (FTS5 for partial matches).
 - Getting book infos from the ISBN13 using public APIs (OPTIONAL).
 - Possibility of scanning a books codebar to autofill its infos (OPTIONAL).
+### Details
+#### Accounts
+The platform will have two main three of accounts : *External(Student/Teacher)*, *Library Staff* and *Admins*. Where registration is possible for External accounts, Admins and Staff need to be added manually through the Administration interface.
 
+>[!NOTE]
+>It's also possible to browse the catalogue with no account, in *Guest* mode.
 
 ## License
 
@@ -57,6 +63,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 - [sqlbox](https://github.com/kristapsdz/sqlbox): "sqlbox is an open source C/C++ secure database access library at this time limited to sqlite3 databases"[²](#2)
 - [SQLiteV3](https://www.sqlite.org/): "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day"[³](#3)
 - [OpenBSD](http://openbsd.org/): "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography"[⁴](#4)
+
+
 ### Frontend: [Seele](https://github.com/Paranoid-Pufferfish/seele)
 #### Team members
 - [SAHI Nour El Imene](https://github.com/ImeneeSh)
