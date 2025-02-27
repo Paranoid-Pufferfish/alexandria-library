@@ -14,11 +14,21 @@
 - Possibility of scanning a books codebar to autofill its infos (OPTIONAL).
 ### Details
 #### Accounts
-The platform will have two main three of accounts : *External(Student/Teacher)*, *Library Staff* and *Admins*. Where registration is possible for External accounts, Admins and Staff need to be added manually through the Administration interface.
+The platform will have three types of accounts : *External(Student/Teacher)*, *Library Staff* and *Admins*. Where registration is possible for External accounts, Admins and Staff need to be added manually through the Administration interface.
 
 >[!NOTE]
 >It's also possible to browse the catalogue with no account, in *Guest* mode.
 
+In Addition to browsing the book catalogue, External accounts can also track their rented books, their rent history, and their delays & penalties, and the possibility to extend the rental period on demand.
+
+
+Library Staff are the ones allowed to rent a book to someone, and also mark it as returned, they also have access to the rental history of all other accounts and add and remove books to the inventory.
+>[!IMPORTANT]
+> A Staff member can only do operations on books and users that share the same Campus as them
+
+All three types will be the same entity, differentiated by a ROLE Foreign Key(More in the Database Section)
+
+#### Database
 ## License
 
 BSD 3-Clause License
