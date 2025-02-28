@@ -26,7 +26,18 @@ Users who signed up will have a user account that lets them check their inventor
 
 ##### Staff & Admins
 Staff and Admins have the required authorizations to assign a book to an External account, mark it as returned, check global & user specific histories and add and remove books from the global inventory and import/export data. Admins are the only ones who can add Campuses and create Staff accounts.
-
+#### Books
+A Book is identified with its *serialnum* which is a unique integer and a primary key for the *BOOK* table.
+##### Attributes & Types
+- booktitle: TEXT
+- bookreleasedate: INTEGER
+- bookcover: TEXT(URL to cover)
+##### Foreign Keys:
+- langID: References LANG(langID)
+- typeID: References TYPE(typeID)
+- categoryID: References CATEGORY(categoryID)
+- authorID: References AUTHOR(authorID)
+- publisherID: References PUBLISHER(publisherID) 
 #### Database
 TODO
 #### Sequence Diagram
