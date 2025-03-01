@@ -1,9 +1,13 @@
 # The Alexandria Library
+
 ## Concept
+
 *The Alexandria Library* is a University library management platform designed to optimize the process of renting and returning books, providing a REST API Microservice & a Webapp Interface for both administrating and managing books and rents, making it possible to integrate in other environnements, and developing native desktop/phone apps.
 
 ## Needs Analysis
+
 ### Overview
+
 - A student/professor interface for managing rented books, showing delays and warnings, and offering the possibility to extend delays.
 - An admin/staff interface for both assigning books to students/professors, adding books to the inventory, and check logs and events.
 - Possibility of creating a student/professor account without staff intervention.
@@ -12,36 +16,36 @@
 - A simple and advanced search interface (FTS5 for partial matches).
 - Getting book infos from the ISBN13 using public APIs (OPTIONAL).
 - Possibility of scanning a books codebar to autofill its infos (OPTIONAL).
+
 ### Details
+
 #### Accounts
+
 The platform will have three types of accounts : *External(Student/Teacher)*, *Library Staff* and *Admins*. Where registration is possible for External accounts, Admins and Staff need to be added manually through the Administration interface.
 
 ##### Guest Mode
+
 Guest(or Account-less) mode lets the user browse the catalogue and see available books and related details. Only data that is logged is checked books for analytics and statistics sake
 
 ##### External users
-Users who signed up will have a user account that lets them check their inventory/rented books, their rent history, and extend deadlines, or get notified about delays. 
->[!NOTE]
->Practically speaking, there is no difference between a student and a professor account, though this may change in the future.
+
+Users who signed up will have a user account that lets them check their inventory/rented books, their rent history, and extend deadlines, or get notified about delays.
+
+> [!NOTE]
+> Practically speaking, there is no difference between a student and a professor account, though this may change in the future.
 
 ##### Staff & Admins
-Staff and Admins have the required authorizations to assign a book to an External account, mark it as returned, check global & user specific histories and add and remove books from the global inventory and import/export data. Admins are the only ones who can add Campuses and create Staff accounts.
-#### Books
-A Book is identified with its *serialnum* which is a unique integer and a primary key for the *BOOK* table.
-##### Attributes & Types
-- booktitle: TEXT
-- bookreleasedate: INTEGER
-- bookcover: TEXT(URL to cover)
-##### Foreign Keys:
-- langID: References LANG(langID)
-- typeID: References TYPE(typeID)
-- categoryID: References CATEGORY(categoryID)
-- authorID: References AUTHOR(authorID)
-- publisherID: References PUBLISHER(publisherID) 
+
+Staff and Admins have the authorizations to assign a book to an External account, mark it as returned, check global & user specific histories and add and remove books from the global inventory and import/export data. Admins are the only ones who can add Campuses and create Staff accounts.
+
 #### Database
-TODO
+
+![Entity Relation Diagram](./assets/database.png)
+
 #### Sequence Diagram
+
 TODO
+
 ## License
 
 BSD 3-Clause License
@@ -53,11 +57,9 @@ modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this
    list of conditions and the following disclaimer.
-
 2. Redistributions in binary form must reproduce the above copyright notice,
    this list of conditions and the following disclaimer in the documentation
    and/or other materials provided with the distribution.
-
 3. Neither the name of the copyright holder nor the names of its
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
@@ -73,31 +75,35 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
 ## Project Components
 
 ### Backend: [Mellow](https://github.com/Paranoid-Pufferfish/mellow-api)
+
 #### Team members
+
 - [MOUHOUS Mathya](https://github.com/MathyazSnoozin): Designing the RESTFUL API endpoints
 - [AIT MEDDOUR Fouâd-Eddine](https://github.com/Paranoid-Pufferfish): Implementation of the API endpoints
+
 #### Stack
+
 - [BCHS](https://learnbchs.org): The backbone of the server, BCHS is not a software per-say, but merely a concept/idea. It prioritizes security and sandboxing over speed.
 - [kcgi](https://github.com/kristapsdz/kcgi): "kcgi is an open source CGI and FastCGI library for C/C++ web applications. It's minimal, secure, auditable, and fits within your BCHS software stack"[¹](#1)
 - [sqlbox](https://github.com/kristapsdz/sqlbox): "sqlbox is an open source C/C++ secure database access library at this time limited to sqlite3 databases"[²](#2)
 - [SQLiteV3](https://www.sqlite.org/): "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day"[³](#3)
 - [OpenBSD](http://openbsd.org/): "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography"[⁴](#4)
 
-
 ### Frontend: [Seele](https://github.com/Paranoid-Pufferfish/seele)
+
 #### Team members
+
 - [SAHI Nour El Imene](https://github.com/ImeneeSh)
 - [SOLTANA Melissa](https://github.com/melissa60)
+
 #### Stack
 
-
-
 ## Sources & Citations
+
 - [1] : Kristaps DZONSONS: https://github.com/kristapsdz/kcgi <a id='1'></a>
 - [2] : Kristaps DZONSONS: https://github.com/kristapsdz/sqlbox <a id='2'></a>
 - [3] : Richard Hipp: https://www.sqlite.org <a id='3'></a>
-- [4] : https://openbsd.org <a id='4'></a> 
+- [4] : https://openbsd.org <a id='4'></a>
