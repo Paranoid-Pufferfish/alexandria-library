@@ -40,6 +40,7 @@ Staff and Admins have the authorizations to assign a book to an External account
 
 #### Database
 
+![Entity Association Diagram](./assets/database-EA.png)
 ![Entity Relation Diagram](./assets/database.png)
 
 #### Sequence Diagram
